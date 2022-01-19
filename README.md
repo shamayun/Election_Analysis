@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis
 ## Overview of Election Audit
 In this analysis, I assisted Tom, an employee of Colorado Board of Elections.
 I assisted him to complete the election audit of a recent local congressional election by calculating the followings:
