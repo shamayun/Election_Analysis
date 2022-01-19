@@ -32,10 +32,15 @@ Below are the full summary of election results from Colorado Board of Elections:
  **Denver** had the largest number of votes out of all counties in Colorado.
 
 ## Election Audit Summary
-Based on the success and accuracy of the scripts, I can confidently suggest this automation of audits can be used in other local and senatorial districts. All 3 voting methods(*Mail-in Ballot, Punch Cards, Direct Recording on Electronic Medias*) can be successfully captured into CSV format. Once results are captured in CSV format, can be utilized in Python/Visual Studio Code to conduct full automated audit of any elections, and to produce summarized results by Candidate and locations. Below are 2 steps that needs to be updated in the scripts to make this an univeral audit tool for any elections:
+Based on the success and accuracy of the scripts, I can suggest this automation of audits can be used in other local and senatorial districts. All 3 voting methods(*Mail-in Ballot, Punch Cards, Direct Recording on Electronic Medias*) can be successfully captured into CSV format. Once results are captured in CSV format, can be utilized in Python/Visual Studio Code to conduct full automated audit of any elections, and to produce summarized results by Candidate and locations. Below are 2 steps that needs to be updated in the scripts to make this an univeral audit tool for any elections:
 
 1. Provide the correct path to load the correct input file (*file to load*), provide correct path for the output(*file to save*) files in the computer
 
+![input_output_location](https://github.com/shamayun/Election_Analysis/blob/main/Resources/Data_Source%20Input_Output%20locations.png)
 2. Ensure the correct position of candiate name and location in the list. In our datasource County was listed in position 1 and Candidate was listed in position 2.
+
+![Candidate_county_position](https://github.com/shamayun/Election_Analysis/blob/main/Resources/Candidate%20and%20County%20in%20Dictionary.png)
+
+This automation process will increase the efficiency of any election audit process. The results could be shown in either text files or Terminal depending on user's preference. The final results will be shown in Terminal as below:
 
 
