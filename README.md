@@ -10,7 +10,7 @@ I assisted him to complete the election audit of a recent local congressional el
 
 Besides the candidate summary, I also assisted Tom to generate a summarized report of The percentage of votes from each county out of the total count and the county with the highest turnout.
 ### Resources
-I have utilized *election_results.csv* as the data source to conduct this audit. Python codes in visual Studio Code were used to generate output into *election_results.text* files for user's covenience.
+I have utilized *election_results.csv* as the data source to conduct this audit. Python codes in Visual Studio Code were used to generate output into *election_results.text* files for user's covenience.
 
 ## Election Audit Results
 Below are the full summary of election results from Colorado Board of Elections: 
@@ -42,5 +42,6 @@ Based on the success and accuracy of the scripts, I can suggest this automation 
 ![Candidate_county_position](https://github.com/shamayun/Election_Analysis/blob/main/Resources/Candidate%20and%20County%20in%20Dictionary.png)
 
 This automation process will increase the efficiency of any election audit process. The results could be shown in either text files or Terminal depending on user's preference. The final results will be shown in Terminal as below:
+![Summary](https://github.com/shamayun/Election_Analysis/blob/main/Resources/Election_Summary.png)
 
 
